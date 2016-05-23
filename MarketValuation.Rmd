@@ -122,3 +122,9 @@ ggplot(new_data, aes(x = difference, y = returns)) + geom_point()+geom_smooth(me
   geom_vline(xintercept = last_difference, linetype = "dashed")
 
 ```
+
+Summary of the model
+
+```{r}
+summary(new_fit)
+```
